@@ -1,4 +1,4 @@
-# EJEMPLO-DE-COMPRA-RÁPIDA
+# EXAMPLE-QUICK-ORDER
 
 <!-- DOCS-IGNORE:start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -8,40 +8,41 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
 
-Cambiar lenguaje de README a [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/FelCer/vtex-quick-order/blob/main/docs/README.en.md)
+Change language from README to [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/FelCer/vtex-quick-order/blob/main/docs/README.md)
 
-Esta aplicación sirve para realizar una compra rápida
+This application is used to make a quick purchase
 <br>
 
-## Implementación
+## Implementation
 
-1. Importar `{{vendor}}.quick-order` en el archivo `manifest.json` del tema de IO.
+1. Import `{{vendor}}.quick-order` into the IO theme's `manifest.json` file.
 
 ```
   "dependencies": {
-    // Validar la versión que se encuentra la aplicación.
+    // Validate the version that the application is found.
     "{{vendor}}.quick-order": "0.x",
   }
+
 ```
 
-## Ejemplo de uso
+## Example use
 
-![Media Placeholder](./assets/example_use.png 'Imagen de ejemplo de uso')
+![Media Placeholder](./assets/example_use.png 'image of example use')
 
-## Componentes disponibles
+## Available components
 
 - `quick-order`
   <br>
 
-## Componente `quick-order`
+## Component `quick-order`
 
-Este componente sirve para agregar al carrito un producto introduciendo el skuid
+This component is used to add a product to the cart by entering the skuid
 
 <!-- DOCS-IGNORE:start -->
 
-## Colaboradores ✨
+## Contributors ✨
 
-Gracias a estas maravillosas personas: ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people: ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <table>
   <tr>
